@@ -5,7 +5,7 @@ RUN mkdir /opt/jekyll
 
 WORKDIR /opt/jekyll
 
-COPY Gemfile .
+COPY Gemfile ./
 
 RUN gem install bundler
 
