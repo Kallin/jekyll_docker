@@ -5,7 +5,7 @@ RUN mkdir /opt/jekyll
 
 WORKDIR /opt/jekyll
 
-COPY Gemfile ./
+ADD https://raw.githubusercontent.com/Kallin/jekyll_docker/master/Gemfile ./
 
 RUN gem install bundler
 
